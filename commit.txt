@@ -1,0 +1,19 @@
+commit 57abd5dafd3e5218bc862f7a6fd34f8c45962c08
+Author: Luis <luisruiz462000@gmail.com>
+Date:   Mon May 18 10:42:42 2020 -0500
+
+    se centro el contenido de los articulos y se pusieron arriba de las imagenes.
+
+
+commit 3aa3763ece74f8e3583712252e8d7c1cb52d17bc
+Author: Luis <luisruiz462000@gmail.com>
+Date:   Mon May 18 10:35:26 2020 -0500
+
+    agregamos un article
+
+
+commit e7411fbb6cc3915189cd492bd32bea41bab8cc73
+Author: Luis <luisruiz462000@gmail.com>
+Date:   Sun May 17 20:18:54 2020 -0500
+
+    iniciamos
