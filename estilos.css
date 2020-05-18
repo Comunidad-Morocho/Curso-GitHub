@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Monserrat', sans-serif;
+}
+
+a{ text-decoration: none;}
+
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+    .header{
+        background: #000;
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        display: flex;
+        flex-flow: column nowrap;        
+    }
+    
+        .menu{
+            align-items: center;    
+            background: #000;
+            display: flex;
+            flex-flow: row nowrap;                                
+        }
+            .menu a{
+                flex-flow: row wrap;
+                color: #fff;                          
+            }
+                .menu a:hover{
+                    color: #ccc;
+                }
+            .logo{                
+                flex: 1 1 auto;               
+            }
+                .logo a{          
+                    font-size: 30px;                  
+                }
+                .logo a:hover{
+                    color: #ccc;
+                }
+            .nav{                
+                flex: 5 1 auto; 
+                display: flex;             
+            }
+                .nav a{ 
+                    display: flex;
+                    text-transform: uppercase;   
+                    padding: 0 10px;    
+                    letter-spacing: 2px;                       
+                }
+            .social{                
+                flex: 1 1 auto;
+                display: flex;                                
+                }
+                    .social a{
+                        font-size: 30px;
+                        padding: 0 5px;
+                        background: #fff;                        
+                        color:#fff;
+                    }
+
+        .texto-principal{
+            height: auto;
+            display: flex;         
+            background: #000;   
+            color: #fff;            
+        }          
+            h1{
+                text-align: center;
+            }
+               
+         
+        
+    .section{
+        background: #000;
+        display: flex;
+    }
+        .articulos{            
+            flex: 2 1 auto;      
+        }
+            .article{                   
+                flex: 1 1 auto;
+                color: #fff;
+            }
+                .article img{                    
+                    margin: auto;
+                    width: 300px;
+                    height: auto; 
+                    border-radius: 2px;  
+                    display: block;                                            
+                    
+                }
+            
+    .aside{
+        background: #000;
+        flex: 1 1 auto;        
+    } 
+        .aside img{
+            border-radius: 50%;
+        }  
+        .publicidad{
+            background: #000;
+            margin: 35px;
+        }  
+
+
+    .footer{
+        background: #000;
+        text-align: center;
+       
+    }
+        .pie a{
+            background: #000;
+            color: #fff;     
+            font-size:20px;                                   
+        }
+           
