@@ -89,6 +89,7 @@ a{ text-decoration: none;}
             .article{                   
                 flex: 1 1 auto;
                 color: #fff;
+                text-align: center;
             }
                 .article img{                    
                     margin: auto;
