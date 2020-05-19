@@ -113,8 +113,16 @@ a{ text-decoration: none;}
                 .publicidad, .texto-publicitario, h4{
                 text-align: center;                
                 }
-
-
+                .publicidad a{
+                    background: #fff;
+                    color: black;
+                    font-size: 20px;
+                    padding: 5px 5px;
+                }
+                .publicidad a:hover{
+                    background: #7c7773;
+                    /* color: #b6bbc5; */
+                }
     .footer{
         background: #000;
         text-align: center;
