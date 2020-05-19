@@ -32,7 +32,7 @@ a{ text-decoration: none;}
         }
             .menu a{
                 flex-flow: row wrap;
-                color: #fff;                          
+                color: #4339d6;                          
             }
                 .menu a:hover{
                     color: #ccc;
@@ -61,13 +61,14 @@ a{ text-decoration: none;}
         background: #000;
         display: flex;
         border-radius: 5px; 
+        color: #9614a1;
     }
         .articulos{            
             flex: 2 1 auto;      
         }
             .article{                   
                 flex: 1 1 auto;
-                color: #fff;
+                /* color: #fff; */
                 text-align: center;
                 letter-spacing: 2px;
             }
@@ -84,7 +85,7 @@ a{ text-decoration: none;}
                 }
                 article p a{
                     background: #fff;
-                    color: #000;
+                    /* color: #000; */
                     padding: 1px 10px;
                     border-radius: 2px;
                     letter-spacing: 1px;                   
@@ -104,7 +105,7 @@ a{ text-decoration: none;}
         .publicidad{                        
             background: #000;
             margin: 35px;
-            color:#fff;
+            color:rgb(150, 5, 5);
             margin: 100px 5px 100px auto;
         } 
             h4{
