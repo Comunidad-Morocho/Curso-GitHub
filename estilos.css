@@ -55,22 +55,12 @@ a{ text-decoration: none;}
                     text-transform: uppercase;   
                     padding: 0 10px;    
                     letter-spacing: 2px;                       
-                }
-            .social{                
-                flex: 1 1 auto;
-                display: flex;                                
-                }
-                    .social a{
-                        font-size: 30px;
-                        padding: 0 5px;
-                        background: #fff;                        
-                        color:#fff;
-                    }
+                }            
         
     .section{
         background: #000;
         display: flex;
-        border-radius: 20px; 
+        border-radius: 5px; 
     }
         .articulos{            
             flex: 2 1 auto;      
@@ -90,8 +80,17 @@ a{ text-decoration: none;}
                     width: 300px;
                     height: auto; 
                     border-radius: 2px;  
-                    display: block;                                            
-                    
+                    display: block;                                                             
+                }
+                article p a{
+                    background: #fff;
+                    color: #000;
+                    padding: 1px 10px;
+                    border-radius: 2px;
+                    letter-spacing: 1px;                   
+                }
+                article p a:hover{
+                    color: #ccc;
                 }
             
     .aside{
